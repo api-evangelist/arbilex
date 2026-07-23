@@ -1,7 +1,28 @@
 aid: arbilex
-name: Arbilex
-description: Arbilex is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arbilex.png
+name: ArbiLex
+description: >-
+  ArbiLex is a legal-fintech startup founded at the Harvard Innovation Labs in
+  2018 by Isabel Yang that brings AI and predictive analytics to high-stakes
+  international arbitration and litigation finance. Its Bayesian machine learning
+  and NLP models — trained on a dataset of over nine million cases — produce
+  empirical, explainable case ratings that help counsel quantify uncertainty,
+  reduce errors, and value claims. ArbiLex also operates the ArbiLex Funding
+  Exchange (AFX), a data-driven marketplace pairing AI-rated cases with
+  litigation-finance capital. Added to the API Evangelist network as a portfolio
+  company of 500 Global; no public developer API surface was found at time of
+  enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/arbilex/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Legal
+- LegalTech
+- Litigation Finance
+- Arbitration
+- Legal Analytics
+- Artificial Intelligence
+- Predictive Analytics
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/arbilex-domain-security.yml
 - type: Website
   url: https://arbilex.co
+- type: LinkedIn
+  url: https://www.linkedin.com/company/arbilex
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/arbilex
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
